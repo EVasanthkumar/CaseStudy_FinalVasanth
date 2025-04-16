@@ -12,7 +12,7 @@ Feature: Conduit CRUD Functions
       | Vasanth_1203 | My name is vasanth | Am from TCS | HelloWorld|
     Then Article must be created
     
-     Scenario: Create new Article
+     Scenario: Create new Article (negitive scenario)
     Given User click on New Article Page button
     * User should be on New Article Page
     When User enters Article details
